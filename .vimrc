@@ -17,6 +17,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dylanaraps/wal'
 Plugin 'dhruvasagar/vim-table-mode'
+Plugin 'severin-lemaignan/vim-minimap'
 "Plugin 'plugged/vim-pandoc-syntax'
 call vundle#end()
 
@@ -50,6 +51,8 @@ setlocal formatoptions=ctnqro
 setlocal comments+=n:*,n:#
 endfu
 com! WP call WordProcessor()
+
+let g:table_mode_corner='|' "markdown compatible table corners
 
 inoremap ' ''<ESC>ha
 inoremap " ""<ESC>ha
