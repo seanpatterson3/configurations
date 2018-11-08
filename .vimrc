@@ -1,5 +1,6 @@
 set nocompatible
-filetype off
+filetype on
+filetype indent on
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 
@@ -18,6 +19,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dylanaraps/wal'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'severin-lemaignan/vim-minimap'
+Plugin 'junegunn/fzf'
+'
 "Plugin 'plugged/vim-pandoc-syntax'
 call vundle#end()
 
@@ -44,6 +47,7 @@ set tw=80           "new line at 80 characters
 set formatoptions-=cro  "if line wraps during bullet, won't create new bullet
 set autoindent
 set tw=9999
+set nofoldenable
 
 func! WordProcessor()
 set spell spellang=en_us
