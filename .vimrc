@@ -19,8 +19,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'dylanaraps/wal'
 Plugin 'dhruvasagar/vim-table-mode'
 Plugin 'severin-lemaignan/vim-minimap'
-Plugin 'junegunn/fzf'
-'
+"Plugin 'gregsexton/MatchTag'"
 "Plugin 'plugged/vim-pandoc-syntax'
 call vundle#end()
 
