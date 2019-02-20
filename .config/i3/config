@@ -30,7 +30,11 @@ font pango:monospace 8
 floating_modifier $mod
 
 # start a terminal
+<<<<<<< HEAD
 bindsym Control+Mod1+t exec konsole
+=======
+bindsym Control+Mod1+t exec i3-sensible-terminal
+>>>>>>> 801184806027a4f5c486d93cdbd36fe5de3257c7
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -136,6 +140,10 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 801184806027a4f5c486d93cdbd36fe5de3257c7
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
